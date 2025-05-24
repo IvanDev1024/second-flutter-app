@@ -80,7 +80,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
                   child: TextFormField(
                     controller: userController,
                     decoration : InputDecoration(
-                        hintText: "username",
+                        hintText: "Entrez votre message...",
                         suffixIcon: Icon(Icons.person),
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10),
